@@ -1,0 +1,14 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: light;
+}
+
+section.first h1 {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+section.first p {
+  font-weight: 600;
+  font-size: 24px;
+}
