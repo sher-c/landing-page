@@ -85,7 +85,7 @@ section.secondpage ul {
 }
 
 section.thirdpage {
-  height: 80vh;
+  height: 50vh;
   width: 80vw;
   background-image: url("../img/testimonial.jpg");
   background-repeat: no-repeat;
@@ -108,4 +108,57 @@ section.thirdpage h4 {
   bottom: 20px;
   zoom: 200%;
   position: relative;
+}
+
+section.fourthpage {
+  height: 15vh;
+  width: 80vw;
+  background-color: #f9e42e;
+}
+
+section.fourthpage button {
+width: 150px;
+height: 30px;
+font-weight: 800;
+font-size: 12px;
+color: inherit;
+background-color: #033048;
+border-radius: 5px;
+border-color: #033048;
+position: relative;
+left: 210px;
+top: 15px;
+zoom: 200%;
+}
+
+section.fifthpage {
+  background-color: inherit;
+  height: 40vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.fifthpage h5 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  zoom: 200%;
+}
+
+div.images {
+  margin: 10px;
+  height: 30px;
+  width: 15px;
+  display: flex;
+  flex-direction: row;
+
+  top: 40px;
+}
+
+section.fifthpage h6 {
+  font-weight: 600;
+  font-size: 9px;
+  zoom: 200%;
 }
